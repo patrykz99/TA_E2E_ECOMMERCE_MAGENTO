@@ -1,0 +1,23 @@
+{
+  "name": "ta_e2e_ecommerce_magento",
+  "version": "1.0.0",
+  "description": "Test automation project  with playwright (using playwright-bdd package)",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "dotenv": "^17.2.3",
+    "playwright-bdd": "^8.4.1",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@types/node": "^24.10.1"
+  }
+}
